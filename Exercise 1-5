@@ -1,0 +1,74 @@
+print ("Exercise 1")
+print ("Joseph Xie")
+print ("St. Roberts")
+print ("6 Rollingwood Drive")
+print ("Toronto, ON")
+print ("M2H2M5")
+print ("Canada")
+print ("696-969-6969")
+
+#a way to format strings
+city = "Toronto"
+province = "ON" 
+print (f"{city}, {province}")
+print (" ")
+
+#My Method
+#print ("Exercise Two")
+#print ("What is your name?")
+#test_name = input ()
+#print ("Hello", test_name,"!")
+
+#Teacher's Method
+name = input ("What is your name? ")
+print (F"Hello, {name}, how are you!")
+
+mood = 
+print ("you are feeling . . .")
+
+print (" ")
+
+
+print ("Exercise Three")
+print ("What is the length of the room in meters?")
+Length_room = float(input())
+
+print ("What is the width of the room in meters?")
+Width_room = float(input())
+
+area_room = Length_room * Width_room 
+print ("The area of your room is", area_room,"in meters.")
+print ("  ")
+
+
+
+print ("Exercise Four")
+FEET_TO_ACRE = 43560 
+print ("What is the length of your field in feet?")
+length_field = float(input())
+
+print ("What is the width of your field in feet?")
+Width_field = float(input())
+
+area_field = Width_field * length_field 
+field_area_acre = area_field / FEET_TO_ACRE
+
+print ("The area of your field in acres is", field_area_acre)
+print ("  ")
+
+
+
+print ("Exercise Five")
+SMALL_BOTTLE_RATE = 0.10
+BIG_BOTTLE_RATE = 0.25
+print ("Please enter the amount of bottles under 1 litre you would like to recycle:")
+under_bottle = int(input())
+
+print ("Please enter the amount of bottles over 1 litre you would like to recycle:")
+over_bottle = int(input())
+
+under_bottle = under_bottle * SMALL_BOTTLE_RATE
+over_bottle = over_bottle * BIG_BOTTLE_RATE
+
+total_bottle_cost = under_bottle + over_bottle
+print ("In total for your recyclable contributions, you will be rewarded in $", total_bottle_cost)
